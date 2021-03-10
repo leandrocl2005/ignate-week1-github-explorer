@@ -35,6 +35,7 @@ Ps: If there are file imports, we need webpack!
 - > yarn add style-loader css-loader -D
 - > yarn add sass -D
 - > yarn add sass-loader -D
+- > yarn add -D @pmmmwh/react-refresh-webpack-plugin react-refresh
 - > yarn add html-webpack-plugin -D
 - > yarn add webpack-dev-server -D
 - Config *webpack.config.js*
@@ -71,3 +72,9 @@ In browser go to http://localhost:8080/
 ### In production
 
 - > yarn build
+
+## Important concepts
+
+- Components
+- Props
+- State (Imutability)
