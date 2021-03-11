@@ -85,6 +85,7 @@ In browser go to http://localhost:8080/
 - > yarn tsc --init
 Change *tsconfig.json*
 - > yarn add @babel/preset-typescript -D
+
 No arquivo **babel.config.js* adicione:
 ```js
     presets: [
@@ -93,4 +94,5 @@ No arquivo **babel.config.js* adicione:
     ]
 ```
 - > yarn add @types/react-dom -D
+
 Rename *jsx* to *tsx*.
