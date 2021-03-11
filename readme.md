@@ -86,7 +86,7 @@ In browser go to http://localhost:8080/
 Change *tsconfig.json*
 - > yarn add @babel/preset-typescript -D
 
-No arquivo **babel.config.js* adicione:
+No arquivo *babel.config.js* adicione:
 ```js
     presets: [
         ...,
