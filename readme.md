@@ -62,11 +62,13 @@ Ps: If there are file imports, we need webpack!
 Create *bundle.js* with webpack
 
 - > yarn webpack
+
 And, now, open *dist/index.html* in webbrowser.
 
 ### With webpack server
 
 - > yarn webpack serve
+
 In browser go to http://localhost:8080/
 
 ### In production
